@@ -1,0 +1,25 @@
+{
+  "name": "sampravad",
+  "version": "1.0.0",
+  "description": "a chat app",
+  "main": "client.js",
+  "scripts": {
+    "start-dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanmayVaish/sampravad.git"
+  },
+  "author": "tanmay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanmayVaish/sampravad/issues"
+  },
+  "homepage": "https://github.com/tanmayVaish/sampravad",
+  "dependencies": {
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

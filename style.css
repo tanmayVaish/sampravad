@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.messageContainer{
+    height: 90vh;
+    width: 100%;
+}
+.formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    border: 3px white solid;
+}
+
+
