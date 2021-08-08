@@ -1,13 +1,26 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
-.messageContainer{
-    height: 90vh;
-    width: 100%;
+.page{
+    background-color: darkslateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
 }
-.formContainer{
+.messageContainer {
+    margin: 0.5vmin;
+    height: 89vh;
+    border: black 1vmin solid;
+    width: 60vw;
+}
+
+.formContainer {
+    background-color: green;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,3 +30,31 @@
 }
 
 
+.messageType1 {
+    background-color: #333;
+    color: white;
+    padding: 2vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.messageType2 {
+    background-color: seagreen;
+    color: white;
+    padding: 2vmin;
+}
+
+.messageInput{
+    font-size: 2vmin;
+    padding: 1vmin;
+    margin: 0.1vmin;
+}
+.sendButton{
+    padding: 1vmin;
+    font-size: 2vmin;
+    margin: 0.1vmin;
+    background-color: #333;
+    color: white;
+    font-weight: 900;
+}
